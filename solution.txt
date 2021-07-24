@@ -30,8 +30,8 @@ git remote add origin https://github.com/sachin2151/GitAssignment.git
 git remote -v
 git push -u origin master
 git clone  https://github.com/sachin2151/GitAssignment.git
-notepad Solution.txt
-git add Solution.txt
+notepad solution.txt
+git add solution.txt
 git commit -m "Added Commands" 
 git status
  git push
