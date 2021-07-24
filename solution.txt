@@ -1,0 +1,37 @@
+mkdir GitAssignment
+cd GitAssignment/
+git init
+notepad file1.txt
+notepad file2.txt
+notepad file3.txt
+notepad sample.txt
+git status
+git add sample.txt
+git commit -m "initial commit"
+git checkout -b Dev
+git add file1.txt
+git commit -m "added file1.txt in Dev"
+git checkout -b Test
+git add file2.txt
+git add file3.txt
+git commit -m "Added file2.txt and file3.txt in Test"
+ls
+git checkout Dev
+ notepad file1.txt
+ git status
+git add file1.txt
+git status
+git diff --cached
+git commit -m "modified file1.txt in Dev"
+git checkout master
+git merge Dev
+git merge Test
+git remote add origin https://github.com/sachin2151/GitAssignment.git
+git remote -v
+git push -u origin master
+git clone  https://github.com/sachin2151/GitAssignment.git
+notepad Solution.txt
+git add Solution.txt
+git commit -m "Added Commands" 
+git status
+ git push
